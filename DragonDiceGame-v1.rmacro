@@ -1,7 +1,8 @@
 # This game is currntly made of 5 different Macro's.  Once for each stage of the game.  I am working on creating it in API.
-# Currently each play has to create all 5 macros named accordingly. I created a Hand out with the rule sheet.  Then in the player notes I created a link to each macro.
+# Currently each player has to create all 5 macros named accordingly. I as the DM I created a Hand out with the rule sheet.
+# Then in the player notes of the handout I created a link to each macro.
 # Link Names -  Roll Your Dice   Trade d12 With   Play Dragon Fire   Try to Cheat   Cheat Roll
-# Below is a link the the rule sheet for Dragon Dice  
+# Below is a link the the rule sheet for Dragon Dice, the macro code and the link code for the handout
 
 Dragon Dice Game Rules
 <a href="https://imgbox.com/SN24PTuc" target="_blank"><img src="https://thumbs2.imgbox.com/3e/23/SN24PTuc_t.png" alt="image host"/></a>
