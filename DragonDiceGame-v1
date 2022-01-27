@@ -1,0 +1,6 @@
+@{selected|wtype} &{template:default} {{name=Dragon Dice Game}}  {{@{selected|charname_output} Rolls
+ D12 = [[d12]]}}
+
+[Swap d12 with] {{select?}}
+
+/w gm  D4=[[d4]],  D6=[[d6]],  D8=[[D8]]
