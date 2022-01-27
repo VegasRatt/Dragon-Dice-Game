@@ -1,28 +1,33 @@
 # This game is currntly made of 5 different Macro's.  Once for each stage of the game.  I am working on creating it in API.
-# I created a Hand out with the rule sheet.  Then in the player notes I created a link to each macro.  Currently each play has to have all 5 macros
+# Currently each play has to create all 5 macros named accordingly. I created a Hand out with the rule sheet.  Then in the player notes I created a link to each macro.
 # Link Names -  Roll Your Dice   Trade d12 With   Play Dragon Fire   Try to Cheat   Cheat Roll
 # Below is a link the the rule sheet for Dragon Dice  
 
 Dragon Dice Game Rules
 <a href="https://imgbox.com/SN24PTuc" target="_blank"><img src="https://thumbs2.imgbox.com/3e/23/SN24PTuc_t.png" alt="image host"/></a>
 
-DragonDiceGame
+DragonDiceGame  [Marco Name]
 @{selected|wtype} &{template:default} {{name=Dragon Dice Game}}  {{@{selected|charname_output} Rolls
  D12 = [[d12]]
 /w gm Secret Roll D4=[[d4]],  D6=[[d6]],  D8=[[D8]]
+# Handout link  `#DragonDiceGame
 
 
-DragonDiceTrade
+DragonDiceTrade  [Marco Name]
 ?{Options|Do Not Trade,Keeping My d12 Die|Trade with Alti,Traded d12 with Alti|Trade with Lucian,Traded d12 with Lucian|Trade with Pongo,Traded d12 with Pongo|Trade with Tool,Traded d12 with Tool|Trade with NPC,Traded d12 with NPC}
+# Handout link  `#DragonDiceTrade
 
 
-DragonDiceFire
+DragonDiceFire  [Marco Name]
 ?{Options|Roll 1d12,Rolling 1-d12 [[d12]]|Roll 2d12,[[d12]] [[d12]]|Roll 3d12,[[d12]] [[d12]] [[d12]]|Roll 4d12,[[d12]] [[d12]] [[d12]]|[[d12]]}
+#  `#DragonDiceFire
 
 
-DrogonDiceSH [to see if you can cheat]
+DrogonDiceSH  [Marco Name]
 /w gm @{selected|sleight_of_hand_roll}
+#  `#DragonDiceSH
 
 
-DragonDiceCheat
+DragonDiceCheat  [Marco Name]
 /w gm ?{Options|New-Roll d4, New d4 Roll [[d4]]|New-Roll d6, New d6 Roll [[d6]]|New-Roll d8, New d8 Roll [[d8]]}
+#  `#DragonDiceCheat
