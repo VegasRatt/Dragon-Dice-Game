@@ -10,7 +10,7 @@ https://imgbox.com/SN24PTuc
 
 DragonDiceGame  [Marco Name]
 @{selected|wtype} &{template:default} {{name=Dragon Dice Game}}  {{@{selected|charname_output} Rolls
- D12 = [[d12]]
+ D12 = [[d12]]}}
 /w gm Secret Roll D4=[[d4]],  D6=[[d6]],  D8=[[D8]]
 # Handout link  `#DragonDiceGame
 
