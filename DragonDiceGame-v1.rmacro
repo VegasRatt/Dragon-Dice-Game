@@ -6,7 +6,7 @@
 # Below is a link the the rule sheet for Dragon Dice, the macro code and the link code for the handout
 
 Dragon Dice Game Rules
-<a href="https://imgbox.com/SN24PTuc" target="_blank"><img src="https://thumbs2.imgbox.com/3e/23/SN24PTuc_t.png" alt="image host"/></a>
+https://imgbox.com/SN24PTuc
 
 DragonDiceGame  [Marco Name]
 @{selected|wtype} &{template:default} {{name=Dragon Dice Game}}  {{@{selected|charname_output} Rolls
