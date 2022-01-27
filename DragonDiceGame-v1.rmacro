@@ -16,7 +16,7 @@ DragonDiceGame  [Marco Name]
 
 
 DragonDiceTrade  [Marco Name]
-?{Options|Do Not Trade,Keeping My d12 Die|Trade with Alti,Traded d12 with Alti|Trade with Lucian,Traded d12 with Lucian|Trade with Pongo,Traded d12 with Pongo|Trade with Tool,Traded d12 with Tool|Trade with NPC,Traded d12 with NPC}
+?{Options|Do Not Trade,Keeping My d12 Die|Trade to Alti,Traded d12 to Alti|Trade to Lucian,Traded d12 to Lucian|Trade to Pongo,Traded d12 to Pongo|Trade to Tool,Traded d12 to Tool|Trade to NPC,Traded d12 to NPC}
 # Handout link  `#DragonDiceTrade
 
 
